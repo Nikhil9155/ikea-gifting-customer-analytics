@@ -1,167 +1,96 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0051BA,50:003B57,100:FFDA1A&height=220&section=header&text=IKEA%20GIFTING&fontSize=48&fontColor=FFFFFF&animation=twinkling&fontAlignY=35&desc=Customer%20Analytics%20%7C%20RFM%20Segmentation%20%7C%20Churn%20Analysis&descAlignY=57&descSize=17" width="100%" alt="IKEA Gifting Customer Analytics animated header"/>
+
 <div align="center">
 
-# 🛍️ IKEA Gifting
+# Customer Analytics & RFM Segmentation
 
-## Customer Analytics & RFM Segmentation
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=800&color=0051BA&center=true&vCenter=true&width=850&lines=From+Raw+Transactions+to+Customer+Intelligence;RFM+Segmentation+%7C+Churn+Analysis;DuckDB+SQL+%7C+Python+%7C+Power+BI" alt="Animated project headline" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=850&color=0051BA&center=true&vCenter=true&width=850&lines=Turning+Raw+Transactions+Into+Customer+Intelligence;Finding+Value+Through+RFM+Segmentation;Exploring+Customer+Retention+With+SQL%2C+Python+%26+Power+BI" alt="Animated introduction"/>
 
 <p>
-  <strong>Turning retail transactions into customer intelligence and actionable business insights.</strong>
+  <strong>From business requirements to actionable customer intelligence.</strong>
 </p>
 
-<br>
-
-<a href="https://www.python.org/">
-  <img src="https://img.shields.io/badge/Python-Analytics-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-</a>
 <a href="https://duckdb.org/">
-  <img src="https://img.shields.io/badge/SQL-DuckDB-003B57?style=for-the-badge" alt="DuckDB SQL">
+  <img src="https://img.shields.io/badge/DuckDB-SQL-003B57?style=for-the-badge" alt="DuckDB SQL"/>
+</a>
+<a href="https://www.python.org/">
+  <img src="https://img.shields.io/badge/Python-Analytics-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+</a>
+<a href="https://pandas.pydata.org/">
+  <img src="https://img.shields.io/badge/pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas"/>
 </a>
 <a href="https://jupyter.org/">
-  <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook">
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
 </a>
 <a href="https://powerbi.microsoft.com/">
-  <img src="https://img.shields.io/badge/Power%20BI-Interactive%20Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI">
+  <img src="https://img.shields.io/badge/Power%20BI-Business%20Intelligence-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI"/>
 </a>
 
-<br><br>
+<br/><br/>
 
 <a href="powerbi/IKEA.pbix">
-  <img src="https://img.shields.io/badge/Explore-Dashboard-0051BA?style=for-the-badge&logo=powerbi&logoColor=white" alt="Explore dashboard">
+  <img src="https://img.shields.io/badge/EXPLORE%20THE%20DASHBOARD-0051BA?style=for-the-badge&logo=powerbi&logoColor=white" alt="Explore the Power BI dashboard"/>
 </a>
 <a href="docs/IKEA_Gifting_BRD.docx">
-  <img src="https://img.shields.io/badge/Read-Business%20Requirements-FFDA1A?style=for-the-badge&logoColor=black" alt="Read business requirements">
+  <img src="https://img.shields.io/badge/VIEW%20BUSINESS%20REQUIREMENTS-FFDA1A?style=for-the-badge&logoColor=black" alt="View the business requirements"/>
 </a>
 
-<br>
+<br/><br/>
 
-**Author:** Nikhil Kumar
-**Domain:** Customer Analytics · Retail Intelligence · Customer Retention
+**Created by Nikhil Kumar** · Data Analytics Portfolio Project
 
 </div>
 
 ---
 
-## 📌 Project at a Glance
+## ✦ Project Overview
 
-A business-oriented analytics project built around a fictional UK-based gifting retailer. The objective is to understand customer value, identify customers meeting a defined inactivity threshold, and explore customer behaviour across segments, time periods, and geographic markets.
+How can a retailer distinguish its most valuable customers from those who have stopped purchasing?
 
-The workflow connects business requirements to SQL data preparation, Python-based RFM segmentation, and an interactive Power BI report.
+This project explores that question using the **Online Retail II** transaction dataset. The objective is to transform historical retail transactions into a structured view of customer value, purchasing behaviour, and inactivity-based churn.
+
+The workflow connects business requirements, SQL data preparation, customer-level RFM analysis, and interactive Power BI reporting.
+
+Rather than treating SQL, Python, and Power BI as isolated tools, the project demonstrates how each contributes to a connected analytical process.
+
+### Project Snapshot
 
 <table>
 <tr>
 <td align="center" width="25%">
 
-<h2>5,881</h2>
-<strong>CUSTOMERS SEGMENTED</strong>
+<h2>1.067M</h2>
 
-Customers represented in the RFM segment summary.
+<strong>RAW RECORDS</strong>
+
+<sub>Source dataset</sub>
+
+</td>
+<td align="center" width="25%">
+
+<h2>5,881</h2>
+
+<strong>SEGMENTED CUSTOMERS</strong>
+
+<sub>RFM summary</sub>
 
 </td>
 <td align="center" width="25%">
 
 <h2>50.9%</h2>
+
 <strong>CHURN FLAG RATE</strong>
 
-Based on the implemented 90-day inactivity rule.
-
-</td>
-<td align="center" width="25%">
-
-<h2>68.1%</h2>
-<strong>CHAMPIONS' REVENUE SHARE</strong>
-
-Revenue contribution shown in the dashboard.
+<sub>90-day rule</sub>
 
 </td>
 <td align="center" width="25%">
 
 <h2>6</h2>
-<strong>RFM SEGMENTS</strong>
 
-Six rule-based customer groups.
+<strong>CUSTOMER SEGMENTS</strong>
 
-</td>
-</tr>
-</table>
-
-<sub>Metrics reflect this project's current analysis and report. They are not actual IKEA corporate performance figures.</sub>
-
----
-
-## 🎯 Business Problem
-
-Customer bases are rarely uniform. A relatively small group of customers may contribute a substantial share of revenue, while other customers purchase infrequently or become inactive.
-
-Without structured customer analysis, marketing and retention teams may struggle to distinguish high-value relationships from customers who require re-engagement.
-
-This project explores how transaction data can support more targeted customer decisions through segmentation, revenue analysis, and inactivity-based churn identification.
-
-### Business objectives
-
-* Identify customers and segments that contribute most to revenue.
-* Quantify customers meeting the project's churn definition.
-* Compare customer value and retention patterns over time.
-* Explore differences across geographic markets.
-* Translate analytical segments into potential retention priorities.
-
-📄 **Business requirements:** [View the Business Requirements Document](docs/IKEA_Gifting_BRD.docx)
-
----
-
-## 📊 Dashboard Showcase
-
-The Power BI report contains **two pages with four bookmark-based analytical views**.
-
-Click any screenshot to open the full-size image.
-
-<table>
-<tr>
-<td align="center" width="50%">
-
-### 01 · Overview — Customer
-
-<a href="powerbi/screenshots/overview_customer.png">
-<img src="powerbi/screenshots/overview_customer.png" width="100%" alt="Overview dashboard showing customer distribution, customer retention by segment, and customer trends">
-</a>
-
-Customer distribution, retention by segment, and customer trends across months, quarters, and years.
-
-</td>
-<td align="center" width="50%">
-
-### 02 · Overview — Revenue
-
-<a href="powerbi/screenshots/overview_revenue.png">
-<img src="powerbi/screenshots/overview_revenue.png" width="100%" alt="Overview dashboard showing revenue contribution by segment and revenue trends">
-</a>
-
-Revenue contribution by segment, revenue retention, and revenue trends over time.
-
-</td>
-</tr>
-<tr>
-<td align="center" width="50%">
-
-### 03 · RFM Analysis — Segment
-
-<a href="powerbi/screenshots/rfm_segment.png">
-<img src="powerbi/screenshots/rfm_segment.png" width="100%" alt="RFM analysis dashboard showing segment performance and average customer value">
-</a>
-
-Segment performance, customer counts, revenue contribution, average RFM scores, and average customer value.
-
-</td>
-<td align="center" width="50%">
-
-### 04 · RFM Analysis — Country
-
-<a href="powerbi/screenshots/rfm_country.png">
-<img src="powerbi/screenshots/rfm_country.png" width="100%" alt="RFM analysis dashboard showing country performance and top countries by average customer value">
-</a>
-
-Country performance, geographic comparisons, and the top five countries by average customer value.
+<sub>Rule-based RFM</sub>
 
 </td>
 </tr>
@@ -169,213 +98,292 @@ Country performance, geographic comparisons, and the top five countries by avera
 
 <div align="center">
 
-### 🚀 Explore the interactive report
-
-[**Download IKEA.pbix**](powerbi/IKEA.pbix) · [Dashboard documentation](powerbi/README.md)
+<sub>Results shown are from this project's current analytical output. They do not represent the real IKEA corporation.</sub>
 
 </div>
 
-<sub>The PNG images are static previews. Open the Power BI file in Power BI Desktop to explore the report's interactive slicers, buttons, and bookmark-based views.</sub>
+---
+
+## 🎯 The Business Challenge
+
+The fictional business, IKEA Gifting, needs a clearer understanding of customer value and retention risk.
+
+When all customers receive the same attention, marketing and retention efforts may not be directed toward the customers who contribute the most value or those whose purchasing activity has declined.
+
+The analysis explores how customer-level metrics can support more targeted decisions.
+
+### Business Objectives
+
+* **Understand customer value:** Identify segments with different purchasing behaviour and revenue contributions.
+* **Identify inactivity:** Quantify customers who meet a defined 90-day inactivity threshold.
+* **Compare performance over time:** Examine customer, revenue, and churn patterns across months, quarters, and years.
+* **Explore geographic differences:** Compare customer value and performance across countries.
+* **Support retention planning:** Provide structured customer segments that can inform further investigation and potential retention actions.
+
+📄 **Start with the business requirements:** [Read the BRD](docs/IKEA_Gifting_BRD.docx)
+
+---
+
+## ⚡ The Analytics Workflow
+
+<div align="center">
+
+<img src="assets/analytics_workflow.gif" width="100%" alt="Animated analytics workflow showing business requirements, raw data, SQL preparation, Python RFM analysis, Excel output, Power BI, and business insights"/>
+
+<p><em>Seven stages. One connected analytical process.</em></p>
+
+</div>
+
+The workflow connects the initial business problem to the final reporting layer:
+
+| Stage | Implementation                 | Purpose                                                         |
+| ----- | ------------------------------ | --------------------------------------------------------------- |
+| 01    | Business Requirements Document | Define objectives, scope, and business questions                |
+| 02    | Online Retail II               | Source historical transaction data                              |
+| 03    | DuckDB SQL                     | Consolidate, standardize, inspect, and deduplicate transactions |
+| 04    | Python & pandas                | Calculate RFM metrics and assign customer segments              |
+| 05    | Excel export                   | Prepare the analytical dataset for reporting                    |
+| 06    | Power BI                       | Build interactive customer and revenue analysis                 |
+| 07    | Business interpretation        | Explore customer value, inactivity, and segment differences     |
+
+**The result:** a traceable workflow connecting transaction preparation to customer analytics and interactive reporting.
+
+---
+
+## 📊 Dashboard Showcase
+
+The finished Power BI report contains **two report pages and four bookmark-based analytical views**.
+
+The screenshots below represent the four views of the existing dashboard, not four separate pages.
+
+<table>
+<tr>
+<td colspan="2" align="center">
+
+### 01 · OVERVIEW — CUSTOMER VIEW
+
+<a href="powerbi/screenshots/overview_customer.png">
+<img src="powerbi/screenshots/overview_customer.png" width="100%" alt="Overview dashboard showing customer KPIs, segment distribution, customer retention, and trends"/>
+</a>
+
+Customer distribution, retention by segment, and customer trends across time.
+
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+
+### 02 · OVERVIEW — REVENUE VIEW
+
+<a href="powerbi/screenshots/overview_revenue.png">
+<img src="powerbi/screenshots/overview_revenue.png" width="100%" alt="Overview dashboard showing revenue contribution by segment and monthly, quarterly, and yearly revenue trends"/>
+</a>
+
+Revenue contribution, revenue retention, and trends across months, quarters, and years.
+
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+
+### 03 · RFM ANALYSIS — SEGMENT
+
+<a href="powerbi/screenshots/rfm_segment.png">
+<img src="powerbi/screenshots/rfm_segment.png" width="100%" alt="RFM segment analysis showing customer counts, revenue, scores, and average customer value"/>
+</a>
+
+Segment performance, RFM scores, and average customer value.
+
+</td>
+<td align="center" width="50%">
+
+### 04 · RFM ANALYSIS — COUNTRY
+
+<a href="powerbi/screenshots/rfm_country.png">
+<img src="powerbi/screenshots/rfm_country.png" width="100%" alt="Country analysis showing country performance, RFM scores, and top five countries by average customer value"/>
+</a>
+
+Country-level performance and top countries by average customer value.
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+### Explore the report yourself
+
+<a href="powerbi/IKEA.pbix">
+  <img src="https://img.shields.io/badge/DOWNLOAD%20POWER%20BI%20REPORT-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Download Power BI report"/>
+</a>
+
+</div>
+
+<sub>To explore interactive slicers, bookmark controls, and visual interactions, download the `.pbix` file and open it in Power BI Desktop.</sub>
 
 ---
 
 ## 💡 Key Findings
 
-### 01. Revenue is concentrated among Champions
+The current analytical output highlights several patterns relevant to customer management.
 
-The Champions segment contains **1,291 customers**, approximately 22% of the 5,881 customers in the segment summary. The dashboard attributes 68.1% of its displayed revenue to this group.
+### 01 — Customer value is concentrated
 
-This concentration makes Champions an important group to understand when evaluating customer value and possible retention priorities.
+The Champions segment contains **1,291 customers**, approximately 22% of the 5,881 customers in the RFM summary.
 
-### 02. Inactivity is a significant analytical signal
+The Power BI revenue view attributes **68.1% of displayed revenue** to this segment.
 
-The dashboard reports a **50.9% churn flag rate** using the project's fixed 90-day inactivity threshold.
+**Business implication:** Champions may deserve particular attention when evaluating loyalty, repeat purchasing, and customer retention priorities.
 
-This indicates that a substantial portion of the analyzed customer base meets the report's inactivity criterion. It does not establish whether these customers will permanently leave the business.
+### 02 — Inactivity is a significant signal
 
-### 03. Customer segments have different value profiles
+The dashboard reports a **50.9% churn flag rate**, based on the project's fixed 90-day inactivity rule.
 
-The analysis distinguishes six groups using Recency, Frequency, and Monetary scores. The dashboard makes it possible to compare their customer counts, revenue contribution, average RFM scores, and average customer value.
+**Business implication:** The flagged population provides a starting point for investigating customer disengagement and designing potential re-engagement strategies.
 
-### 04. Time and geography provide additional perspectives
+This is a rule-based classification of historical activity, not a prediction of future churn.
 
-The Overview page contains monthly, quarterly, and yearly customer and revenue trends. The RFM Analysis page adds country-level comparisons and churn trends over time.
+### 03 — Customer segments behave differently
 
-The report supports further investigation of these patterns; it does not establish their causes.
+Six segments provide a structured way to compare customer counts, revenue contribution, average RFM scores, and average customer value.
+
+**Business implication:** A segmented view can support more differentiated customer strategies than a single aggregate customer metric.
+
+### 04 — Time and geography add context
+
+The report includes monthly, quarterly, and yearly trends, together with country-level customer and value comparisons.
+
+**Business implication:** These views can help analysts identify patterns worth investigating further, although the charts alone do not establish their causes.
+
+<sub>Findings describe the current analytical outputs and report. They should not be interpreted as verified performance figures for the real IKEA corporation.</sub>
 
 ---
 
-## 🧰 Technology Stack
+## 🧰 Technology & Technical Implementation
 
 <table>
 <tr>
 <th align="left">Technology</th>
-<th align="left">Purpose</th>
+<th align="left">Implementation in this project</th>
 </tr>
 <tr>
 <td><strong>DuckDB SQL</strong></td>
-<td>Transaction consolidation, type standardization, data-quality inspection, and deduplication.</td>
+<td>Combining source tables, type conversion, data-quality inspection, and deduplication using window functions.</td>
 </tr>
 <tr>
 <td><strong>DBeaver</strong></td>
-<td>SQL development and database interaction.</td>
+<td>SQL development and interaction with the DuckDB database.</td>
 </tr>
 <tr>
 <td><strong>Python</strong></td>
-<td>Customer-level analytical processing.</td>
+<td>Customer-level analytical processing and segmentation.</td>
 </tr>
 <tr>
 <td><strong>pandas</strong></td>
-<td>Data preparation, aggregation, RFM scoring, segmentation, and export.</td>
+<td>Data preparation, aggregation, RFM scoring, segment assignment, and export.</td>
 </tr>
 <tr>
 <td><strong>Jupyter Notebook</strong></td>
-<td>Interactive analysis and documented analytical workflow.</td>
+<td>Organizing and executing the analytical workflow.</td>
 </tr>
 <tr>
 <td><strong>Power BI Desktop</strong></td>
-<td>Interactive dashboards, KPI presentation, filtering, and bookmark-based views.</td>
+<td>Interactive reporting, KPI presentation, filtering, and bookmark-based views.</td>
 </tr>
 <tr>
 <td><strong>DAX</strong></td>
-<td>Business measures and dashboard KPIs.</td>
+<td>Dashboard measures and key performance indicators.</td>
 </tr>
 </table>
 
----
+### Technical Concepts Demonstrated
 
-## ⚙️ End-to-End Workflow
-
-```mermaid
-flowchart TD
-    A["📋 Business Requirements Document"]
-    B["📦 Online Retail II Dataset"]
-    C["🗄️ DuckDB SQL<br/>Consolidation & Data Quality"]
-    D["🧹 RetailCleaned"]
-    E["🐍 Python & pandas<br/>RFM Calculation"]
-    F["🎯 Customer Scores<br/>& Six Segments"]
-    G["📊 Excel Export<br/>EcommerceDashboardData.xlsx"]
-    H["📈 Power BI<br/>Interactive Analysis"]
-    I["💡 Customer & Retention Insights"]
-
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-    G --> H
-    H --> I
-
-    classDef business fill:#e8f1ff,stroke:#0051BA,color:#16365f,stroke-width:1.5px
-    classDef data fill:#fff4c2,stroke:#c5a600,color:#333333,stroke-width:1.5px
-    classDef analysis fill:#e5f6ec,stroke:#218653,color:#174d32,stroke-width:1.5px
-    classDef output fill:#f0e9ff,stroke:#7353ba,color:#38265f,stroke-width:1.5px
-
-    class A,I business
-    class B,C,D data
-    class E,F,G analysis
-    class H output
-```
-
-### Step 1 — Define the business requirements
-
-The BRD establishes the problem, objectives, scope, key definitions, stakeholder needs, and success criteria.
-
-### Step 2 — Prepare the transaction data
-
-The DuckDB SQL workflow combines the two annual source tables, standardizes key data types, measures data-quality issues, identifies exact duplicate groups, and builds a deduplicated transaction table.
-
-The script creates:
-
-* `RetailCombined`
-* `RetailCleaned`
-* `RetailDataQualitySummary`
-
-The cleaned SQL table intentionally retains missing customer identifiers and non-positive quantities. These records remain available for data-quality inspection.
-
-### Step 3 — Calculate customer-level RFM metrics
-
-The notebook loads `RetailCleaned.csv`, excludes rows with missing customer IDs and non-positive quantities from the customer analysis, and calculates RFM metrics using a fixed snapshot date of **December 10, 2011**.
-
-### Step 4 — Score and segment customers
-
-Each customer receives a Recency, Frequency, and Monetary score from 1 to 5. The scoring uses quantile-based bins, with Recency scored in reverse order so that more recent purchasing activity receives a higher score.
-
-Rule-based logic assigns customers to six segments.
-
-### Step 5 — Apply the churn flag
-
-The notebook flags a customer as churned when:
-
-```python
-rfm["IsChurned"] = rfm["Recency"] > 90
-```
-
-This is an inactivity-based business rule, not a predictive churn model.
-
-### Step 6 — Export and visualize
-
-The notebook merges customer-level RFM results onto the eligible transaction data and exports `EcommerceDashboardData.xlsx`.
-
-Power BI uses the prepared output for customer, revenue, segment, and geographic analysis.
+* SQL data consolidation using `UNION ALL`.
+* Safe type conversion using `TRY_CAST` and date parsing using `TRY_STRPTIME`.
+* Data-quality inspection and missing-value assessment.
+* Exact duplicate identification using grouping and `ROW_NUMBER()`.
+* Customer-level aggregation using pandas.
+* Quantile-based RFM scoring.
+* Rule-based customer segmentation.
+* Inactivity-based churn flagging.
+* Dataset export and Power BI reporting.
+* Bookmark-based switching between analytical views.
 
 ---
 
 ## 🧠 RFM Segmentation Framework
 
-RFM represents three dimensions of customer purchasing behaviour.
+RFM analysis evaluates customers using three dimensions of historical purchasing activity.
 
-| Metric            | Meaning                                  | Higher score indicates          |
-| ----------------- | ---------------------------------------- | ------------------------------- |
-| **Recency (R)**   | Days since the most recent purchase      | More recent purchasing activity |
-| **Frequency (F)** | Number of distinct invoices              | More frequent transactions      |
-| **Monetary (M)**  | Sum of quantity multiplied by unit price | Higher transaction value        |
+<table>
+<tr>
+<th>Metric</th>
+<th>Meaning</th>
+<th>Scoring direction</th>
+</tr>
+<tr>
+<td><strong>Recency (R)</strong></td>
+<td>Days since the most recent purchase</td>
+<td>More recent purchases receive higher scores.</td>
+</tr>
+<tr>
+<td><strong>Frequency (F)</strong></td>
+<td>Number of distinct invoices</td>
+<td>More invoices generally receive higher scores.</td>
+</tr>
+<tr>
+<td><strong>Monetary (M)</strong></td>
+<td>Total eligible transaction value</td>
+<td>Higher monetary value generally receives higher scores.</td>
+</tr>
+</table>
 
-### Segment definitions
+Each metric is scored from **1 to 5** using quantile-based binning. Recency uses reverse scoring; Frequency and Monetary use ascending scoring.
+
+### The six customer segments
 
 <details>
 <summary><strong>🏆 Champions</strong></summary>
 
-Customers with `R_Score >= 4`, `F_Score >= 4`, and `M_Score >= 4`.
+Rule: `R_Score >= 4`, `F_Score >= 4`, and `M_Score >= 4`.
 
-These customers score highly across recency, frequency, and monetary value.
+Customers who score highly on recency, frequency, and monetary value.
 
 </details>
 
 <details>
 <summary><strong>💙 Loyal</strong></summary>
 
-Customers assigned after the Champions rule who satisfy `R_Score >= 3` and `F_Score >= 3`.
+Rule applied after Champions: `R_Score >= 3` and `F_Score >= 3`.
 
-They demonstrate relatively recent and frequent purchasing activity.
+Customers with relatively recent and frequent purchasing behaviour.
 
 </details>
 
 <details>
 <summary><strong>⚠️ At Risk</strong></summary>
 
-Customers assigned after the preceding rules who satisfy `R_Score <= 2` and `F_Score >= 3`.
+Rule applied after preceding segments: `R_Score <= 2` and `F_Score >= 3`.
 
-They have lower Recency scores despite a comparatively high Frequency score.
+Customers with low Recency scores despite comparatively high Frequency scores.
 
 </details>
 
 <details>
 <summary><strong>🌱 New</strong></summary>
 
-Customers assigned after the preceding rules who satisfy `R_Score >= 4` and `F_Score <= 2`.
+Rule applied after preceding segments: `R_Score >= 4` and `F_Score <= 2`.
 
-They have recent purchasing activity but relatively low purchase frequency.
+Customers with recent purchasing activity but relatively low Frequency scores.
 
 </details>
 
 <details>
 <summary><strong>🔎 Needs Attention</strong></summary>
 
-Customers assigned after the preceding rules who satisfy `R_Score == 3` and `F_Score <= 2`.
+Rule applied after preceding segments: `R_Score == 3` and `F_Score <= 2`.
 
-They have moderate Recency scores and comparatively low Frequency scores.
+Customers with moderate Recency scores and lower Frequency scores.
 
 </details>
 
@@ -384,20 +392,77 @@ They have moderate Recency scores and comparatively low Frequency scores.
 
 Customers who do not match any of the preceding segment rules.
 
-This is the remaining rule-based category, not an independently trained customer class.
+This is the remaining category in the implemented rule-based classification.
 
 </details>
 
-The order of the rules matters because the notebook assigns the first matching segment.
+**Important:** The order of the rules matters because the notebook assigns the first matching segment. These are descriptive categories, not machine-learned customer classes.
+
+### Churn Definition
+
+The notebook applies a fixed 90-day inactivity threshold:
+
+```python
+rfm["IsChurned"] = rfm["Recency"] > 90
+```
+
+A customer is flagged as churned when more than 90 days have passed since their most recent purchase, measured against the fixed snapshot date of **December 10, 2011**.
 
 ---
 
-## 🗂️ Repository Structure
+## 🔬 Data Preparation & Analytical Methodology
+
+### SQL — Transaction Preparation
+
+The SQL workflow combines the two annual source tables, standardizes data types, checks data quality, and creates a deduplicated transaction table.
+
+The key tables are:
+
+| Table            | Purpose                                                        |
+| ---------------- | -------------------------------------------------------------- |
+| `RetailCombined` | Combined annual transaction data after initial type conversion |
+| `RetailCleaned`  | Deduplicated transaction table used for subsequent analysis    |
+
+The script also contains validation queries that help inspect missing data, non-positive quantities, date conversion, and duplicate transaction groups.
+
+**Data-quality checks do not automatically mean all problematic rows are removed.** The SQL layer identifies and documents issues; the Python workflow applies the eligibility filters required for the customer-level calculations.
+
+### Python — Customer Analytics
+
+The notebook:
+
+1. Loads `RetailCleaned.csv`.
+2. Parses the invoice date.
+3. Excludes records with missing customer identifiers and non-positive quantities from the RFM analysis.
+4. Calculates Recency, Frequency, and Monetary metrics.
+5. Scores customers on a 1–5 scale for each metric.
+6. Assigns the six customer segments.
+7. Applies the 90-day inactivity flag.
+8. Merges the RFM results onto eligible transactions.
+9. Exports `EcommerceDashboardData.xlsx`.
+
+The Monetary calculation is based on quantity multiplied by unit price for eligible records.
+
+### Power BI — Interactive Reporting
+
+The prepared Excel output supports the two-page report:
+
+* **Overview:** Customer and revenue KPIs, segment views, retention comparisons, and trends.
+* **RFM Analysis:** Segment performance, average customer value, country comparisons, and churn trends.
+
+Bookmark-based controls provide the Customer/Revenue and Segment/Country views within the respective report pages.
+
+---
+
+## 📁 Repository Structure
 
 ```text
 ikea-gifting-customer-analytics/
 │
 ├── README.md
+│
+├── assets/
+│   └── analytics_workflow.gif
 │
 ├── docs/
 │   ├── README.md
@@ -424,109 +489,127 @@ ikea-gifting-customer-analytics/
 
 ---
 
-## ▶️ Reproduce the Analysis
+## ▶️ Reproducing the Analysis
+
+The repository contains the SQL script, Python notebook, Power BI report, and supporting documentation. The raw UCI dataset is not included in this repository.
 
 ### Prerequisites
 
 * DuckDB
-* DBeaver or another compatible SQL client
+* DBeaver or a compatible SQL client
 * Python
 * pandas
+* Jupyter Notebook
 * An Excel-writing engine supported by pandas, such as `openpyxl`
 * Power BI Desktop
 
-### 1. Obtain the dataset
+### Step 1 — Obtain the source data
 
 Download **Online Retail II** from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/502/online+retail+ii).
 
-The source data contains 1,067,371 transaction rows covering December 2009 to December 2011.
+The dataset contains 1,067,371 transaction records covering December 1, 2009, to December 9, 2011.
 
-The raw dataset is not currently stored in this repository.
+### Step 2 — Import the annual source tables
 
-### 2. Import the annual source tables
-
-Import the two annual sheets into DuckDB using the table names expected by the SQL script:
+Import the two source sheets into DuckDB using the table names expected by the SQL script:
 
 ```text
 main.year_2009_2010
 main.year_2010_2011
 ```
 
-Confirm that the imported columns match the column names referenced in the SQL script.
+Confirm that the imported column names match those referenced in the SQL code.
 
-### 3. Run the SQL workflow
+### Step 3 — Run the SQL workflow
 
-Open and execute:
+Execute:
 
 [`sql/01_retail_data_cleaning_duckdb.sql`](sql/01_retail_data_cleaning_duckdb.sql)
 
-The source tables must exist before execution.
+The source tables must exist before the script is executed.
 
-Review the data-quality summary and post-cleaning validation results.
+Because the original script creates named derived tables, use a fresh DuckDB database or remove the existing derived tables before rerunning it.
 
-### 4. Export the cleaned data
+### Step 4 — Export the cleaned data
 
-Export `main.RetailCleaned` to a CSV file named:
+Export `main.RetailCleaned` as:
 
 ```text
 RetailCleaned.csv
 ```
 
-Place it in the Jupyter Notebook's working directory, or update the notebook's file path.
+Place the file in the Jupyter Notebook's working directory or update the input path in the notebook.
 
-### 5. Run the Python notebook
+### Step 5 — Run the Python Notebook
 
-Open:
+Open and run:
 
 [`notebooks/ikea_rfm_segmentation.ipynb`](notebooks/ikea_rfm_segmentation.ipynb)
 
-Execute the cells sequentially.
-
-The notebook calculates RFM metrics, assigns segments, creates the churn flag, and exports:
+Execute the cells sequentially. The notebook creates the RFM results and exports:
 
 ```text
 EcommerceDashboardData.xlsx
 ```
 
-### 6. Open the Power BI report
+### Step 6 — Open the Power BI report
 
 Open [`powerbi/IKEA.pbix`](powerbi/IKEA.pbix) in Power BI Desktop.
 
-If the report points to a different local file path, update the source configuration to the generated Excel file and refresh the report.
+If the report uses a different local file path, update its data source to the generated Excel file and refresh the report.
 
 ---
 
 ## ⚠️ Limitations & Assumptions
 
-* **Historical dataset:** The analysis uses transactions from 2009–2011 and does not represent current customer behaviour.
+* **Historical data:** The dataset represents activity from 2009–2011, not present-day customer behaviour.
 * **Fixed snapshot date:** RFM metrics are calculated relative to December 10, 2011.
-* **Rule-based churn:** The churn flag uses a fixed threshold of more than 90 days since the last purchase. It does not predict future churn.
-* **Customer eligibility:** Records with missing customer IDs and non-positive quantities are excluded from the customer-level RFM analysis.
-* **Wholesale versus retail:** The analysis does not explicitly separate wholesale customers from individual retail buyers.
-* **No causal conclusions:** Historical trends do not establish why customer activity or revenue changed.
-* **Currency formatting:** The source prices are denominated in British pounds sterling (£), but the current Power BI report displays `$` symbols without converting the underlying values to USD. The dashboard is preserved unchanged; dollar symbols should be interpreted as formatting, not currency conversion.
-* **Static previews:** The PNG screenshots show report states but do not provide interactive filtering or bookmark functionality.
+* **Rule-based churn:** The 90-day flag identifies inactivity under a predefined threshold; it does not predict future churn.
+* **Customer eligibility:** Rows without customer IDs and rows with non-positive quantities are excluded from the customer-level analysis.
+* **Wholesale versus retail:** The analysis does not explicitly separate wholesale customers from individual retail customers.
+* **No causal inference:** Trends shown by the dashboard do not establish why customer behaviour or revenue changed.
+* **No predictive model:** The project does not train a churn prediction model or estimate individual customer churn probabilities.
+* **Currency display:** The original dataset's unit prices are in British pounds sterling (£). The current Power BI report displays `$` symbols, but the SQL and Python workflows do not convert the underlying values to USD. Therefore, the dollar symbols should be interpreted as formatting, not as evidence of currency conversion.
+* **Static dashboard previews:** PNG screenshots are not interactive. Use Power BI Desktop for the complete report experience.
 
 ---
 
-## 📚 Data Source & Disclaimer
+## 📚 Dataset Source
 
-**Dataset:** Chen, D. (2012). *Online Retail II*. UCI Machine Learning Repository.
+**Chen, D. (2012). *Online Retail II*. UCI Machine Learning Repository.**
 
 * [Official dataset page](https://archive.ics.uci.edu/dataset/502/online+retail+ii)
 * [Dataset DOI](https://doi.org/10.24432/C5CG6D)
-* **Dataset license:** Creative Commons Attribution 4.0 International (CC BY 4.0)
+* **License:** Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-The dataset describes historical transactions from a UK-based, non-store online retailer selling all-occasion giftware.
+The source describes a UK-based online retailer selling giftware and includes transaction records, product details, customer identifiers, unit prices, dates, and countries.
 
-**Business disclaimer:** IKEA Gifting is a fictional company name used for this educational analytics project. This project is not affiliated with, endorsed by, or representative of the real IKEA corporation. All customer counts, financial figures, and analytical results refer to the public historical dataset and this project's implementation.
+### Business Disclaimer
+
+**IKEA Gifting is a fictional company name used for this educational portfolio project.** This project is not affiliated with, endorsed by, or representative of the real IKEA corporation.
+
+All customer counts, revenue figures, segments, and other analytical results refer to the public historical dataset and this project's implementation. They do not represent the real IKEA corporation's business performance.
 
 ---
 
 <div align="center">
 
-### Built with SQL · Python · Power BI
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=0051BA&center=true&vCenter=true&width=800&lines=Turning+Data+Into+Decisions.;Every+Dataset+Has+A+Story.;Let's+Find+The+Insights+That+Matter." alt="Animated closing message"/>
 
-**From transaction data to customer intelligence.**
+<br/><br/>
+
+<a href="https://www.linkedin.com/in/nikhil9155/">
+  <img src="https://img.shields.io/badge/LET'S%20CONNECT%20ON-LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Nikhil on LinkedIn"/>
+</a>
+
+<br/><br/>
+
+<em>Curious minds. Clear insights. Measurable impact.</em>
+
+<br/><br/>
+
+<strong>Designed and developed by Nikhil Kumar</strong> · Data Analytics Portfolio
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0051BA,50:003B57,100:FFDA1A&height=130&section=footer&animation=twinkling" width="100%" alt="Blue and yellow animated footer"/>
