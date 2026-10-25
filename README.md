@@ -411,17 +411,6 @@ If the report's source path differs from your local environment, update the data
 
 ## Attribution and Disclaimer
 
-### Tutorial attribution
-
-This is a tutorial-based portfolio implementation. The original workflow and dashboard approach were followed from the work of Mansi Goel.
-
-* [Original GitHub repository](https://github.com/the-mansi-goel/IKEA)
-* [YouTube walkthrough](https://www.youtube.com/watch?v=LQa0SiuZfhA)
-
-The main implementation difference documented here is the use of DuckDB through DBeaver for the SQL cleaning workflow after a MySQL server failure during the final table append.
-
-The tutorial and its original creator are acknowledged here to distinguish the source methodology from this repository's implementation.
-
 ### Dataset attribution
 
 Chen, D. (2012). *Online Retail II*. UCI Machine Learning Repository. https://doi.org/10.24432/C5CG6D.
